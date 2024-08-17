@@ -1,0 +1,123 @@
+.empleado {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    padding: 1em;
+    gap: 20px;
+    color: #fff;
+    border-radius: 1em;
+
+}
+
+.empleado__tilte {
+    text-align: center;
+}
+
+.container_empleado-info {
+    /* border: 1px solid white; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: max-content;
+    min-width: 250px;
+    margin: auto;
+    gap: 10px;
+}
+
+
+
+
+.empleado__img {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empleado__img>img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+.empleado__info {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    /* width: max-content; */
+    /* max-width: max-content; */
+    min-width: min-content;
+    padding: 0 0 5px 0;
+    gap: 10px;
+}
+
+
+.empleado__info-datos {
+    display: flex;
+    /* border: 1px solid blue; */
+    flex-wrap: wrap;
+}
+
+.empleado__info-datos>p {
+    display: flex;
+    justify-content: center;
+    color: #a69f9f;
+}
+
+.btn_empleados {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn_empleados>button:nth-child(1) {
+    background-color: rgb(6, 6, 128);
+    color: #fff;
+    padding: 2px 8px 2px 8px;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.btn_empleados>button:nth-child(2) {
+    background-color: rgb(126, 26, 17);
+    color: #fff;
+    padding: 2px 8px 2px 8px;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .container_empleado-info {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .empleado__img>img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .empleado {
+        width: 90%;
+        height: max-content;
+
+    }
+
+
+
+   
+}
+
+/* display: grid; */
+/* grid-template-columns: repeat(auto-fill, mimax(250px, 1fr)); */
+/* height: 100%;
+    grid-template-rows: 1fr  ; */
+/* grid: auto; */
+/* height: 100%;
+    
+     */

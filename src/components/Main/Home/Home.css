@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Carter+One&family=Josefin+Slab:ital,wght@0,400;1,300;1,400;1,600;1,700&display=swap');
+
+
+.Inicio{
+    /* background:linear-gradient(rgba(5, 7, 12, 0.80),
+    rgba(5, 7, 12, 0.80)),
+     url('../../../Image/Inicio/baile_del_cuy.gif'); */
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Inicio__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* 
+font-family: 'Caprasimo', cursive;
+font-family: 'Carter One', cursive;
+font-family: 'Josefin Slab', serif; 
+*/
+
+
+.Inicio__container-title{
+    color: #fff;
+    background-image: linear-gradient(to right, #e9b6b6, #9288e1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: 'Caprasimo', cursive;
+    font-weight: 200;
+    text-shadow: 2.5px 1px 1px rgba(0, 0, 0, .5);
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding: 0 2px 0 2px;
+    
+}
+
+@media only screen and (max-width: 855px) {
+
+    .Inicio__container-title{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .Inicio__container{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+.Inicio-content{
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 0 0 0;
+    font-family: 'Josefin Slab', serif; 
+    text-align: center;
+}
+
+.inicio-horarioAtencion{
+    color: #fff;
+}
+
+.inicio-horarioAtencion h2{
+    padding: 20px 0 10px 0;
+    font-size: 40px;
+    font-family: 'Josefin Slab', serif; 
+    text-align: center;
+}
+
+.inicio-horarioAtencion p{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Josefin Slab', serif; 
+}
+
+.Inicio-verCarta{
+    color: #fff;
+    background-color: #110c38;
+    font-size: 30px;
+    padding: 13px;
+    margin: 30px 0 20px 0;
+    border-radius: 1em;
+    border-color: 1px solid #000;
+    cursor: pointer;
+    box-shadow: 4px -8px 2px rgba(10, 9, 9, 0.7);
+}
+
+.Inicio-verCarta:hover{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 4px -8px 2px rgba(255, 255, 255, 0.4);
+}
+
+.Inicio-verCarta:active{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4), 4px -8px 2px rgba(223, 205, 205, 0.4);
+    padding: 15px;
+}

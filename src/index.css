@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Caprasimo&family=Carter+One&family=Josefin+Slab:ital,wght@0,400;1,300;1,400;1,600;1,700&family=Lilita+One&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+
+/* :root {
+  --color-primario: #ff0000;
+}
+
+body {
+  background-color: var(--color-primario);
+} */
+
+
+/* 
+font-family: 'Agdasima', sans-serif;
+font-family: 'Caprasimo', cursive;
+font-family: 'Carter One', cursive;
+font-family: 'Josefin Slab', serif;
+font-family: 'Lilita One', cursive;
+ */
+
+
+:root{
+  --titulo1: 'Caprasimo', cursive;
+  --letter_header : Raleway, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+}

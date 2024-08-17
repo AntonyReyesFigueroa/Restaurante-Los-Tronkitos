@@ -1,0 +1,49 @@
+.plato {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    min-height: 340px;
+    max-height: max-content;
+    background-color: rgb(0, 0, 0);
+    padding: 1em;
+    gap: 20px;
+    color: #fff;
+    border-radius: 1em;
+}
+
+.plato_detalle {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 700px) {
+    .container_empleado-info {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .empleado__img>img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .plato {
+        width: 90%;
+        height: max-content;
+    }
+
+    .plato_detalle {
+        height: max-content;
+    }
+
+    .container_empleado-info {
+        all: unset;
+    }
+
+    .empleado__info{
+        height: max-content;
+    }
+
+}

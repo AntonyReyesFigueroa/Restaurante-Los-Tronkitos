@@ -1,0 +1,47 @@
+
+.container__reservation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.reservacion{
+    background-color: rgb(76, 40, 40);
+    max-width: 300px;
+}
+
+.reservation__info{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_reservation-info{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+
+.reservation__info-datos{
+    display: flex;
+    gap: 10px;
+}
+
+.form__container-reservation{
+    background-color: rgb(17, 17, 55);
+    opacity: 0.99;
+}
+
+.form-reservation{
+    background-color: rgb(31, 3, 3);
+    max-width: 300px;
+}
+
+
+
+.form__item_reservation{
+    display: flex;
+    justify-content: center;
+}

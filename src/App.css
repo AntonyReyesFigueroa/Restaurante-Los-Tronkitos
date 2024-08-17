@@ -1,0 +1,22 @@
+.container__app {
+  display: grid;
+  /* background: rgb(93, 52, 52); */
+  grid-template-rows: 80px 1fr 90px;
+  height: 100vh;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .container__app {
+    display: grid;
+    grid-template-rows: 80px 1fr 220px;
+    /* height: 100vh; */
+    /* width: 100vw; */
+  }
+  
+}
+
+main{
+  /* background: rgb(229, 168, 168); */
+  background: linear-gradient(to bottom, rgb(94, 41, 41), grey);
+}
