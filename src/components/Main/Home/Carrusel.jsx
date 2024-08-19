@@ -69,7 +69,7 @@ const Carrusel = ({ data }) => {
 
     useEffect(() => {
         // Intervalo para mover automáticamente cada 3 segundos (ajusta el tiempo según tus necesidades)
-        setInterval(moveToNext, 3000);
+        setInterval(moveToNext, 1000);
     }, [currentIndex])
 
 
