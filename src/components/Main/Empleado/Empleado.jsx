@@ -24,12 +24,23 @@ const Empleado = () => {
   }, [isOpenModal])
 
 
-useEffect(() => {
-  getData()
-},[obtenerData])
+  useEffect(() => {
+    getData()
+  }, [obtenerData])
 
   return (
-    <div className='main__container'>
+    <div className='main__container'
+      style={{
+        background: 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("https://images.prismic.io/qamarero/ZgZ388t2UUcvBRO2_normas-para-empleados-de-hosteleria-cuales-son.jpg?auto=format,compress")',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        color: 'white',
+        backgroundRepeat: 'no-repeat',
+        height: '100%',
+        width: '100%',
+
+      }}
+    >
 
       <div className='btn__agregar'>
         <button onClick={() => {

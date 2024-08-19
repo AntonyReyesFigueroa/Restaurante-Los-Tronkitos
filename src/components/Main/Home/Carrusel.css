@@ -33,7 +33,7 @@
 .elemento{
     flex: 1 0 220px;
     margin: 0 5px;
-    background-color: red;
+    /* background-color: red; */
     width: 220px;
     height: 320px;
     /* animation: desplazamiento 10s linear infinite; */

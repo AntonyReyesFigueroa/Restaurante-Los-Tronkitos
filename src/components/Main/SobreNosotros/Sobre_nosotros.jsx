@@ -2,19 +2,23 @@ import React from 'react'
 
 const Sobre_nosotros = () => {
   return (
-    <div style={{
-      background: 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("https://andeangreattreks.com/wp-content/uploads/Delicious-peruvian-foods.jpg")',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      color: 'white',
-      backgroundRepeat: 'no-repeat',
-      height: '100%', // Ajusta la altura según tus necesidades
-      width: '100%', // Ajusta el ancho según tus necesidades
-      
-    }}>
+    <div
+      style={{
+        background: 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("https://andeangreattreks.com/wp-content/uploads/Delicious-peruvian-foods.jpg")',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        color: 'white',
+        backgroundRepeat: 'no-repeat',
+        height: '100%',
+        width: '100%',
+
+      }}
+    >
       <section id="reseña-histórica"
         style={{
-          padding: '2em'
+          padding: '2em',
+          maxWidth: '900px',
+          margin: 'auto'
         }}
       >
         <h2
@@ -31,7 +35,9 @@ const Sobre_nosotros = () => {
 
       <section
         style={{
-          padding: '2em'
+          padding: '2em',
+          maxWidth: '900px',
+          margin: 'auto'
         }}
         id="descripción-general">
         <h2
@@ -48,7 +54,9 @@ const Sobre_nosotros = () => {
       <section
 
         style={{
-          padding: '2em'
+          padding: '2em',
+          maxWidth: '900px',
+          margin: 'auto'
         }}
         id="misión">
         <h2
@@ -63,7 +71,9 @@ const Sobre_nosotros = () => {
 
       <section
         style={{
-          padding: '2em'
+          padding: '2em',
+          maxWidth: '900px',
+          margin: 'auto'
         }}
         id="visión">
         <h2

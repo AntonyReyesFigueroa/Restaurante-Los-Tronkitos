@@ -54,7 +54,18 @@ const Reservaciones = () => {
 
 
   return (
-    <div>
+    <div
+    style={{
+      background: 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("https://www.reserva-restaurante.it/wp-content/themes/yootheme/cache/76/Copia-di-ADL_3931-HDR-769a79d2.jpeg")',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      color: 'white',
+      backgroundRepeat: 'no-repeat',
+      height: '100%',
+      width: '100%',
+
+    }}
+    >
       <div>
         <h1
           style={{
