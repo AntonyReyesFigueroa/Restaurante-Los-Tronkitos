@@ -5,7 +5,7 @@ import usePost from '../../../../Hooks/usePost';
 
 const FormReservacion = ({ isOpenModal, setIsOpenModal, getData, obtenerData, setObtenerData }) => {
 
-    const URL = 'https://6490763d1e6aa71680cb4c3b.mockapi.io/api/reservaciones'
+  const URL = 'https://6490763d1e6aa71680cb4c3b.mockapi.io/api/reservaciones'
 
     const { register, handleSubmit, reset } = useForm();
 
@@ -26,7 +26,7 @@ const FormReservacion = ({ isOpenModal, setIsOpenModal, getData, obtenerData, se
 
 
 
-            updateData(data, obtenerData?.id_reserva)
+            updateData(data, obtenerData?.id)
             getData()
             getData()
             setIsOpenModal(false)

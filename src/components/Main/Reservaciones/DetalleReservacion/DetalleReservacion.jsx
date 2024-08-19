@@ -28,7 +28,7 @@ const DetalleReservacion = ({ data, setIsOpenModal, setObtenerData, getData, bus
     var resultado = window.confirm(`Estas seguro de eliminar la reservacion en la fecha ${data.fecha}`);
     if (resultado === true) {
 
-      deleteData(data?.id_reserva)
+      deleteData(data?.id)
       getData()
       getData()
 

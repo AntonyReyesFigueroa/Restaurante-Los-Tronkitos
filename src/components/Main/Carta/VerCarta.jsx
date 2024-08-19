@@ -41,7 +41,7 @@ const VerCarta = () => {
 
                                 data && data.map(data => (
                                     data.categoria === 'Plato' ?
-                                        <article className='plato' key={data?.id_plato} >
+                                        <article className='plato' key={data?.id} >
                                             <div className='plato_detalle'>
                                                 <div className="empleado__tilte">
                                                     <h3>{data?.nombre}</h3>
@@ -109,7 +109,7 @@ const VerCarta = () => {
 
                                 data && data.map(data => (
                                     data.categoria === 'Coctel' ?
-                                        <article className='plato' key={data?.id_plato} >
+                                        <article className='plato' key={data?.id} >
                                             <div className='plato_detalle'>
                                                 <div className="empleado__tilte">
                                                     <h3>{data?.nombre}</h3>
@@ -121,7 +121,7 @@ const VerCarta = () => {
                                                             data?.imagen ?
                                                                 <img
                                                                     style={{ maxHeight: '220px' }}
-                                                                    src={data?.img} alt={data?.name} />
+                                                                    src={data?.imagen} alt={data?.name} />
                                                                 :
                                                                 <img src={imgPlatoVacio} alt={data?.name} />
                                                         }
@@ -177,7 +177,7 @@ const VerCarta = () => {
 
                                 data && data.map(data => (
                                     data.categoria === 'Bebida' ?
-                                        <article className='plato' key={data?.id_plato} >
+                                        <article className='plato' key={data?.id} >
                                             <div className='plato_detalle'>
                                                 <div className="empleado__tilte">
                                                     <h3>{data?.nombre}</h3>
@@ -189,7 +189,7 @@ const VerCarta = () => {
                                                             data?.imagen ?
                                                                 <img
                                                                     style={{ maxHeight: '220px' }}
-                                                                    src={data?.img} alt={data?.name} />
+                                                                    src={data?.imagen} alt={data?.name} />
                                                                 :
                                                                 <img src={imgPlatoVacio} alt={data?.name} />
                                                         }
